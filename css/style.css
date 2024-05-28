@@ -148,7 +148,7 @@ img {
     gap: 24px;
 }
 
-.section-two-ul > list {
+.section-two-list {
     width: calc((100% - 72px) / 4);
 }
 
@@ -212,6 +212,7 @@ img {
 
 .footer {
     background-color: #2e2f42;
+    padding: 100px 0;
 }
 
 .footer-logo {
@@ -222,6 +223,8 @@ img {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .footer-text {
