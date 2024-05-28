@@ -148,9 +148,6 @@ img {
     gap: 24px;
 }
 
-.section-two-list {
-    width: calc((100%-72px) / 4);
-}
 
 .section-two-ul .subtitle {
     font-weight: 500;
@@ -239,9 +236,6 @@ img {
     row-gap: 48px;
 }
 
-.section-four-list {
-    width: calc((100%-72px) / 4);
-}
 
 .section-four .subtitle {
     font-weight: 500;
