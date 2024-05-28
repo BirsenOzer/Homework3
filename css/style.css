@@ -67,13 +67,17 @@ img {
 .address-list {
     font-style: normal;
 }
+
+.addr-menu {
+    display: flex;
+    gap: 40px;
+}
+
 .addr-list {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    display: flex;
-    gap: 40px;
 }
 .addr-list:hover {
     color: #404bbf;
