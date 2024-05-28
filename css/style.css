@@ -148,6 +148,10 @@ img {
     overflow: hidden;
   }
 
+.section-two-list {
+    width: calc((100%-72px) / 4);
+}
+
 .section-two-ul {
     display: flex;
     gap: 24px;
