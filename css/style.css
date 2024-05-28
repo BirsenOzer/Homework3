@@ -132,21 +132,23 @@ img {
 
 .visually-hidden {
     position: absolute;
-    clip: rect(1px, 1px, 1px, 1px);
-    padding: 0;
-    border: 0;
-    height: 1px;
     width: 1px;
-    overflow: hidden;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
     white-space: nowrap;
-}
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
 
 .section-two-ul {
     display: flex;
     gap: 24px;
 }
 
-.section-two-ul > .list {
+.section-two-ul > list {
     width: calc((100% - 72px) / 4);
 }
 
