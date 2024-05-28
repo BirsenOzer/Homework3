@@ -148,7 +148,7 @@ img {
     gap: 24px;
 }
 
-.section-two-list {
+.section-two-ul-list {
     width: calc((100% - 72px) / 4);
 }
 
