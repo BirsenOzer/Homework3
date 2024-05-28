@@ -130,13 +130,13 @@ img {
     padding: 120px 0;
 }
 
-.title-two {
-    position: absolute !important;
+.visually-hidden {
+    position: absolute;
     clip: rect(1px, 1px, 1px, 1px);
-    padding: 0 !important;
-    border: 0 !important;
-    height: 1px !important;
-    width: 1px !important;
+    padding: 0;
+    border: 0;
+    height: 1px;
+    width: 1px;
     overflow: hidden;
     white-space: nowrap;
 }
@@ -146,7 +146,7 @@ img {
     gap: 24px;
 }
 
-.section-two-ul .list {
+.section-two-ul > .list {
     width: calc((100% - 72px) / 4);
 }
 
