@@ -126,6 +126,29 @@ img {
     background-color: #404bbf;
 }
 
+.section-two {
+    padding: 120px 0;
+}
+
+.title-two {
+    position: absolute !important;
+    clip: rect(1px, 1px, 1px, 1px);
+    padding: 0 !important;
+    border: 0 !important;
+    height: 1px !important;
+    width: 1px !important;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.section-two-ul {
+    display: flex;
+    gap: 24px;
+}
+
+.section-two-ul .list {
+    width: calc((100% - 72px) / 4);
+}
 
 .section-two-ul .subtitle {
     font-weight: 500;
@@ -133,6 +156,7 @@ img {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 .text {
     line-height: 1.5;
